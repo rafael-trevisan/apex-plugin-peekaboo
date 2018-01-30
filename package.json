@@ -1,0 +1,32 @@
+{
+  "name": "apex-plugin-peekaboo",
+  "version": "18.1.0",
+  "description": "This plug-in pack provides a set of a few standard APEX components (like region, text field, radio and checkbox) with a built-in visibility setting that is meant to implement show and hide actions with an easier and faster way than using Dynamic Actions.",
+  "main": "./server/js/plugin.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafael-trevisan/apex-plugin-peekaboo.git"
+  },
+  "author": "Rafael Trevisan <rafael@trevis.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafael-trevisan/apex-plugin-peekaboo/issues"
+  },
+  "homepage": "https://github.com/rafael-trevisan/apex-plugin-peekaboo#readme",
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "dependencies": {
+    "knockout": "^3.5.0-beta"
+  }
+}

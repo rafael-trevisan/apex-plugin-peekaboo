@@ -1,0 +1,30 @@
+{
+  "mode": "advanced",
+  "appURL": "***",
+  "srcFolder": "***/apex-plugin-peekaboo/server",
+  "distFolder": "***/apex-plugin-peekaboo/dist",
+  "js": {
+    "processor": "webpack",
+    "concat": false,
+    "entries": ["***/apex-plugin-peekaboo/server/js/plugin.js"],
+    "bundleFilename": "peekaboo.bundle",
+    "library": true,
+    "libraryName": "peekaboo",
+    "tsConcat": false
+  },
+  "css": {
+    "language": "css",
+    "concat": false
+  },
+  "browsersync": {
+    "notify": false,
+    "ghostMode": false
+  },
+  "header": {
+    "enabled": false
+  },
+  "apex": {
+    "openBuilder": true,
+    "apexDestination": "application"
+  }
+}
