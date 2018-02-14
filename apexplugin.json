@@ -1,6 +1,6 @@
 {
   "name" : "APEX Peekaboo",
-  "version" : "18.1.0",
+  "version" : "18.2.0",
   "description" : "This plug-in pack provides a set of a few standard APEX components (like region, text field, radio and checkbox) with a built-in visibility setting that is meant to implement show and hide actions with an easier and faster way than using Dynamic Actions.",
   "keywords" : ["region"],
   "homepage" : "https://github.com/rafael-trevisan/apex-plugin-peekaboo",

@@ -70,7 +70,7 @@ const render = (pluginType, id, visibility) => {
          pluginType === 'CHECKBOX' ||
          pluginType === 'SIMPLE_CHECKBOX':
       $(affectedElement).addClass(`peekaboo-${pluginType.toLowerCase()}`);
-      $(affectedElement).parents('.t-Form-fieldContainer').attr('data-bind', `visible: peekaboo('${id}')`);
+      $(affectedElement).parents(`#${id}_CONTAINER`).attr('data-bind', `visible: peekaboo('${id}')`);
       break;
     default:
       console.warn(`Affected Element "${id}" type (${pluginType}) is not supported by Peekaboo at this time.`);
